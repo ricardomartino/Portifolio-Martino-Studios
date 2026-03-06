@@ -244,13 +244,12 @@ const Hero = () => {
                     alt="Client"
                     referrerPolicy="no-referrer"
                   />
-                ))} */}
-              {/* </div> */}
-              {/* <div className="text-sm">
+                ))}
+              </div>
+              <div className="text-sm">
                 <p className="font-bold text-gray-900">+50 Projetos Entregues</p>
                 <p className="text-gray-500">Clientes satisfeitos em todo o Brasil</p>
               </div> */}
-              
             </div>
           </motion.div>
 
@@ -325,7 +324,7 @@ const Portfolio = () => {
             <h3 className="text-4xl font-display font-bold">Projetos que entregam valor</h3>
           </div>
           <p className="text-gray-600 max-w-xs">
-            Uma seleção de trabalhos recentes desenvolvidos com foco em performance e experiência do usuário.
+            Uma seleção de trabalhos recentes desenvolvidos com foco na experiência do usuário.
           </p>
         </div>
 
