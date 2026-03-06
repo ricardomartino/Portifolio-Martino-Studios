@@ -250,6 +250,7 @@ const Hero = () => {
                 <p className="font-bold text-gray-900">+50 Projetos Entregues</p>
                 <p className="text-gray-500">Clientes satisfeitos em todo o Brasil</p>
               </div> */}
+              
             </div>
           </motion.div>
 
