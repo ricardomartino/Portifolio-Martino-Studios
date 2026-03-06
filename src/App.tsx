@@ -195,7 +195,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       {/* Background elements */}
-      <div className="absolute top-0 right-0 -z-10 w-1/2 h-full bg-gradient-to-l from-blue-50/50 to-transparent opacity-50" />
+      <div className="absolute top-0 right-0 -z-10 w-1/2 h-full bg-linear-to-l from-blue-50/50 to-transparent opacity-50" />
       <div className="absolute -top-24 -left-24 -z-10 w-96 h-96 bg-blue-100/30 rounded-full blur-3xl" />
       
       <div className="max-w-7xl mx-auto px-6">
@@ -235,7 +235,7 @@ const Hero = () => {
             </div>
             
             <div className="mt-12 flex items-center gap-6">
-              <div className="flex -space-x-3">
+              {/* <div className="flex -space-x-3">
                 {[1, 2, 3, 4].map((i) => (
                   <img 
                     key={i}
@@ -244,12 +244,12 @@ const Hero = () => {
                     alt="Client"
                     referrerPolicy="no-referrer"
                   />
-                ))}
-              </div>
-              <div className="text-sm">
+                ))} */}
+              {/* </div> */}
+              {/* <div className="text-sm">
                 <p className="font-bold text-gray-900">+50 Projetos Entregues</p>
                 <p className="text-gray-500">Clientes satisfeitos em todo o Brasil</p>
-              </div>
+              </div> */}
             </div>
           </motion.div>
 
@@ -336,7 +336,7 @@ const Portfolio = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group relative bg-gray-900 rounded-3xl overflow-hidden aspect-[16/10]"
+              className="group relative bg-gray-900 rounded-3xl overflow-hidden aspect-16/10"
             >
               <img 
                 src={project.image} 
@@ -416,7 +416,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-white p-8 lg:p-12 rounded-[2rem] shadow-2xl flex flex-col items-center text-center">
+          <div className="bg-white p-8 lg:p-12 rounded-4xl shadow-2xl flex flex-col items-center text-center">
             <div className="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-6">
               <MessageSquare className="w-10 h-10" />
             </div>
